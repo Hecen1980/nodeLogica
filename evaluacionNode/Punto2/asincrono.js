@@ -1,10 +1,13 @@
-const multiplicarPorsiMismo= (a,b)=>{
-    const resultado = a*b
-    return new Promise ((resolve)=>{
-        setTimeout(()=> {
-            resolve(resultado)
-    },1000)
-})
-}
-multiplicarPorsiMismo(2,2)
-    .then (result=>console.log(result))
+function asin(v, ejecucion) {
+    console.log(`EMpezar ejecución: el Valor es = ${v}`);
+    return new Promise((resolve, reject) => {
+      return resolve(
+        setTimeout(function () {
+          ejecucion(v, v * v);
+        }, 0 | (Math.random() * 100))
+      );
+    });
+  }
+  var maximo = 10;
+  var cnt = 0;
+  
