@@ -1,0 +1,11 @@
+{
+  "name": "evaluacionnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "evaluacionNode.js",
+  "scripts": {
+    "start":"evaluacionNode.js"
+  },
+  "author": "Héctor Enrique Morales Hernández",
+  "license": "ISC"
+}

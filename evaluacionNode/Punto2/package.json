@@ -1,0 +1,11 @@
+{
+  "name": "punto2",
+  "version": "1.0.0",
+  "description": "EvaluaciónNode",
+  "main": "asincrono.js",
+  "scripts": {
+    "start":"asincrono" 
+  },
+  "author": "Héctor Enrique Morales Hernández",
+  "license": "ISC"
+}
